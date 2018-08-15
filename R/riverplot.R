@@ -1,4 +1,4 @@
-debug <- TRUE
+debug <- FALSE
 
 dmsgf <- function(...) if(debug) print(sprintf(...))
 dmsg  <- function(...) if(debug) print(...)
